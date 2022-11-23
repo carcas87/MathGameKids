@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mate Gme</title>
+    <link  rel="stylesheet" href="/EjerMatGame/style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <div class="container"> 
+<h2> Ejercicios de operaciones matematicas </h2>
+<section class="container-operadores">
+    <button id="suma" onclick="btnSumar()">
+        <i class="fa-solid fa-plus"></i> 
+    </button>
+
+    <button id="resta" onclick="btnRestar()">
+        <i class="fa-solid fa-minus"></i>
+    </button>
+
+    <button id="producto" onclick="btnProducto()">
+        <i class="fa-solid fa-xmark"></i>
+    </button>
+
+    <button id="division" onclick="btnDivision()">
+        <i class="fa-solid fa-divide"></i>
+    </button>
+</section>
+
+<section class="container-operacion">
+<span id="num1"> 5 </span>
+<span id="operacion"> + </span>
+<span id="num2"> 6 </span>
+<span> = </span>
+<input type="text" id="respuesta_usuario">
+<button id="corregir" onclick="corregir()">Corregir</button>
+
+</section>
+<section id="msj_correccion">
+
+</section>
+
+
+</div>
+    
+    <script src="/EjerMatGame/scrips/script.js"></script>
+</body>
+</html>
+
+9.34
